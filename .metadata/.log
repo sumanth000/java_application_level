@@ -2770,3 +2770,27 @@ Java Model Exception: Error in Java Model (code 969): check-springboot-http does
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 23:33:25.551
 !MESSAGE Classpath changed for project: spring_ioc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 23:36:15.854
+!MESSAGE Classpath changed for project: spring_ioc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 23:36:15.854
+!MESSAGE Boot project REMOVED: spring_ioc
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 23:36:30.707
+!MESSAGE Classpath changed for project: spring_boot_at_tomcat
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 23:36:30.977
+!MESSAGE Classpath changed for project: spring_boot_at_tomcat
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 23:36:31.612
+!MESSAGE Classpath changed for project: spring_boot_at_tomcat
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 23:36:31.613
+!MESSAGE Boot project ADDED: spring_boot_at_tomcat
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 23:36:31.634
+!MESSAGE Classpath changed for project: spring_boot_at_tomcat
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 23:36:31.869
+!MESSAGE Classpath changed for project: spring_boot_at_tomcat
