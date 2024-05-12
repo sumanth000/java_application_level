@@ -1,6 +1,5 @@
 INDEX VERSION 1.134+/Users/b0269392/Desktop/sts/java_application_sts_workspace_learn/.metadata/.plugins/org.eclipse.jdt.core
 1865797976.index
-2017908177.index
 351144727.index
 3663386430.index
 2199707121.index

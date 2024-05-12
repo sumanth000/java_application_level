@@ -2600,3 +2600,25 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 22:50:48.204
 !MESSAGE Classpath changed for project: mvn-bean-creations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 22:52:22.797
+!MESSAGE Classpath changed for project: mvn-bean-art
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-12 22:52:35.649
+!MESSAGE Classpath changed for project: mvn-bean-art
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-05-12 22:52:35.656
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): mvn-bean-art does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2504)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2487)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:428)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-05-12 22:52:35.656
+!MESSAGE mvn-bean-art does not exist
