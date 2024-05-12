@@ -1,0 +1,29 @@
+package component_based_DI_injection;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+
+public class ComponentBean {
+
+	
+
+}
+
+
+@Component
+class Student{
+	
+	@Autowired
+	public Detail detail;
+	
+	
+}
+
+@Component
+ class Detail{
+	public String name;
+	public void printName() {
+		System.out.println("printName");
+	}
+}

@@ -1,0 +1,5 @@
+package mvn_grp.mvn_art;
+
+public class DI_without_bean {
+
+}

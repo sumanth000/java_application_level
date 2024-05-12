@@ -1,0 +1,12 @@
+package mvn_grp.mvn_art;
+
+public class anotherDetail {
+	
+	public String name;
+	
+	public String printAnotherName() {
+		System.out.println("printing another name");
+		return "another name";
+	}
+
+}

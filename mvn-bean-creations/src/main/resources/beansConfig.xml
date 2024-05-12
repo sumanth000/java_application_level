@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           ./spring-beans.xml">
+
+    <!-- Define a simple bean -->
+   <bean id="address" class="xml_based_DI_with_bean.Address"/>
+
+    <!-- Define bean for Family class -->
+    <bean id="family" class="xml_based_DI_with_bean.Family"/>
+
+    <!-- Define bean for Health class -->
+    <bean id="health" class="xml_based_DI_with_bean.Health"/>
+
+    <!-- Define bean for Student class -->
+    <bean id="student" class="xml_based_DI_with_bean.Student">
+        <!-- Constructor injection -->
+        <constructor-arg ref="address"/>
+        <!-- Setter injection -->
+        <property name="family" ref="family"/>
+        <!-- Property injection -->
+        <property name="health" ref="health"/>
+    </bean>
+
+</beans>
+
+ 

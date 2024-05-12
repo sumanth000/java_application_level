@@ -1,0 +1,42 @@
+package mvn_grp.mvn_art;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	
+	
+	@Autowired
+	 public static Student student;
+	
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+     
+         student.detail.printName();
+    }
+    
+    
+}
+
+@Component
+class Student{
+	
+	@Autowired
+	public Detail detail;
+	
+	
+}
+
+@Component
+class Detail{
+	public String name;
+	public void printName() {
+		System.out.println("printName");
+	}
+}

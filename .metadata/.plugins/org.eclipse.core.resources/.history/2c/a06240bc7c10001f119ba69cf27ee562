@@ -1,0 +1,96 @@
+package configuration_bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.*;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+
+
+public class ConfigurationBean {
+
+	
+	public static void main(String []args)
+	{
+		 ApplicationContext context = new AnnotationConfigApplicationContext(ConfigClass.class);
+
+	        // Retrieve beans from the context using their names
+	        Student student = context.getBean(Student.class);
+	        Detail detail = context.getBean(Detail.class);
+	        Health health = context.getBean(Health.class);
+	        Gender gender = context.getBean(Gender.class);
+
+	        // Access methods or properties of the retrieved beans
+	        detail.printName();
+	        health.pringName();
+	        gender.printName();	
+	}
+
+}
+
+
+
+@Configuration
+class ConfigClass{
+	
+	
+     @Autowired
+     public Student student;
+
+	    @Bean
+	    public Student student() {
+	        return new Student();
+	    }
+
+	    @Bean
+	    public Detail detail() {
+	        return new Detail();
+	    }
+
+	    @Bean
+	    public Health health() {
+	        return new Health();
+	    }
+
+	    @Bean
+	    public Gender gender() {
+	        return new Gender();
+	    }
+	
+	
+}
+
+
+class Student{
+	
+	public Gender Gender;
+	
+	public Detail detail;
+
+	public Health health;
+	
+	
+}
+
+class Detail{
+	public void printName() {
+		System.out.println("printName");
+	}
+}
+
+
+
+class Health{
+	public void pringName() {
+		System.out.println("printName");
+
+	}
+}
+
+
+class Gender{
+	public void printName() {
+		System.out.println("printName");
+
+	}
+}

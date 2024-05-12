@@ -1,0 +1,9 @@
+package configuration_bean;
+
+public class configuration_bean {
+
+	public configuration_bean() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

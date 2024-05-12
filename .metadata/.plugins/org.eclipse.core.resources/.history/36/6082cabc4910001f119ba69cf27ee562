@@ -1,0 +1,29 @@
+package mvn_grp.mvn_art;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        
+        Student student=new Student();
+    }
+    J
+}
+
+
+class Student{
+	public Detail detail;
+}
+
+
+class Detail{
+	public String name;
+	public void printName() {
+		System.out.println("printName");
+	}
+}

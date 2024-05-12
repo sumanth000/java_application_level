@@ -1,0 +1,70 @@
+package configuration_bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+
+
+public class ConfigurationBean {
+
+	public ConfigurationBean() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
+
+
+
+@Configuration
+class ConfigClass{
+	
+	
+	 @Autowired
+	    private Detail detail;
+
+	    @Bean
+	    public Student student() {
+	        return new Student();
+	    }
+	
+	
+	
+}
+
+
+class Student{
+	
+	public Gender Gender;
+	
+	public Detail detail;
+
+	public Health health;
+	
+	
+}
+
+class Detail{
+	public String name;
+	public void printName() {
+		System.out.println("printName");
+	}
+}
+
+
+
+class Health{
+	public void pringName() {
+		System.out.println("printName");
+
+	}
+}
+
+
+class Gender{
+	public void printName() {
+		System.out.println("printName");
+
+	}
+}

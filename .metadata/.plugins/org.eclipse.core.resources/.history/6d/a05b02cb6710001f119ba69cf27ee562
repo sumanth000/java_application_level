@@ -1,0 +1,16 @@
+package packageDefault;
+
+ class classDefaultPackage {
+	 
+	 void method() {
+		 classDefault defaultVar=new classDefault();
+		 defaultVar.method();
+	 }
+
+	public classDefaultPackage() {
+		// TODO Auto-generated constructor stub
+		
+		
+	}
+
+}

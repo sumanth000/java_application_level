@@ -1,0 +1,12 @@
+package packageAccess;
+
+ class b {
+	 
+	 
+	 private 
+
+	 public void publicmethod() {
+	   System.out.println("method in b");
+	 }
+	 
+}

@@ -1,0 +1,5 @@
+package packageAccess;
+
+ class b {
+
+}

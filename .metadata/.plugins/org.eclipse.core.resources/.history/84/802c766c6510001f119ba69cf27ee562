@@ -1,0 +1,12 @@
+package packageAccess;
+
+public class run {
+	
+	public static void main(String []args)
+	{
+		a aVar=new a();
+		aVar.aMethod();
+		
+	}
+
+}

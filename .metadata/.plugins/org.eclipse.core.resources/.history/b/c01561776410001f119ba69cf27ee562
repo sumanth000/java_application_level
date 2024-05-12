@@ -1,0 +1,12 @@
+package packageAccess;
+
+public class a {
+
+	public void method() {
+		
+		b bvar=new b();
+		bvar.publicmethod();
+	}
+	
+	
+}

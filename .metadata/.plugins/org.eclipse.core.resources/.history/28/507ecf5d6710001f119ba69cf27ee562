@@ -1,0 +1,9 @@
+package packagePrivate;
+
+public class classPrivate {
+	
+	 private void method() {
+		 System.out.println("method()----- "+"classDefault class");
+	 }
+
+}

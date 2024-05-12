@@ -1,0 +1,9 @@
+package packageDefault;
+
+public class classDefaultPackage {
+
+	public classDefaultPackage() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

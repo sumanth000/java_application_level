@@ -1,0 +1,55 @@
+package mvn_grp.mvn_art;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+/**
+ * Hello world!
+ *
+ */
+// Specify the base package for component scanning
+
+// @Configurationj
+ @ComponentScan("mvn_grp.mvn_art") 
+public class App 
+{
+	
+	
+ 
+	
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        
+        ApplicationContext context = new AnnotationConfigApplicationContext(App.class);
+        Student student = context.getBean(Student.class);
+        student.detail.printName();
+        
+      
+         
+    }
+    
+    
+}
+
+@Component
+class Student{
+	
+	@Autowired
+	public Detail detail;
+	
+	
+}
+
+@Component
+ class Detail{
+	public String name;
+	public void printName() {
+		System.out.println("printName");
+	}
+}

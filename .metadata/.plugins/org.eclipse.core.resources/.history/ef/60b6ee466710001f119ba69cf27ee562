@@ -1,0 +1,29 @@
+package packageAccess;
+
+import packageDefault.*;
+import packageProtected.*;
+
+public class run {
+	
+	public static void main(String []args)
+	{
+		
+		
+		classDefault defaultVar=new classDefault();
+//		defaultVar.method(); // default method only accessible within the package
+		
+		classProtected protectedVar=new classProtected();	
+//		protectedVar.method(); // protected method accessed only with in the same pacakge and subclasses(extending classes)
+	}
+
+}
+
+
+class ProtectedSubclass extends classProtected {
+	
+	public void method() {
+		classProtected protectedVar=new classProtected();	
+		protectedVar.method();
+	}
+	
+}

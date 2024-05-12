@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
+    <booleanAttribute key="M2_BATCH" value="false"/>
+    <stringAttribute key="M2_GOALS" value="-U archetype:generate"/>
+    <listAttribute key="M2_PROPERTIES">
+        <listEntry value="archetypeGroupId=org.apache.maven.archetypes"/>
+        <listEntry value="archetypeArtifactId=maven-archetype-quickstart"/>
+        <listEntry value="archetypeVersion=1.1"/>
+        <listEntry value="groupId=mvn-bean-grp"/>
+        <listEntry value="artifactId=mvn-bean-art"/>
+        <listEntry value="version=0.0.1-SNAPSHOT"/>
+        <listEntry value="package=mvn_bean_grp.mvn_bean_art"/>
+        <listEntry value="outputDirectory=/Users/b0269392/Desktop/sts/java_application_sts_workspace_learn"/>
+    </listAttribute>
+    <booleanAttribute key="M2_SAVE_BEFORE_LAUNCH" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="/var/folders/4n/kxgpqc2s16l2fs7b5ws8vz_00000gn/T/m2e-archetypeGenerator14512007480644931318"/>
+</launchConfiguration>

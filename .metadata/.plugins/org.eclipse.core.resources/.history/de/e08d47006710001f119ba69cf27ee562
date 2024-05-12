@@ -1,0 +1,21 @@
+package packageProtected;
+
+public class classProtected {
+
+	
+	protected void method() {
+		System.out.println("method() ----classProtetected");
+	}
+}
+
+
+
+
+class ProtectedSubclass extends classProtected {
+	
+	public void method() {
+		classProtected protectedVar=new classProtected();	
+		protectedVar.method();
+	}
+	
+}

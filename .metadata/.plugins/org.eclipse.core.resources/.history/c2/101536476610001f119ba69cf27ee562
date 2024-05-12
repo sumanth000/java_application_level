@@ -1,0 +1,16 @@
+package packageAccess;
+
+import packageDefault.*;
+
+public class run {
+	
+	public static void main(String []args)
+	{
+		
+		
+		classDefault defaultVar=new classDefault();
+//		defaultVar.method(); // default method only accessible within the package
+		
+	}
+
+}

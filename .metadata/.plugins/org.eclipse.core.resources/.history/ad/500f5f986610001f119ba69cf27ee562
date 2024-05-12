@@ -1,0 +1,9 @@
+package packageProtected;
+
+public class classProtectedPackage {
+
+	public classProtectedPackage() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

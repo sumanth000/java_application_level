@@ -1,0 +1,5 @@
+package packageProtected;
+
+public class classProtetected {
+
+}
