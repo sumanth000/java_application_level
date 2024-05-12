@@ -60,7 +60,7 @@ class ConfigClass {
         return new Health();
     }
 
-    @Bean
+    @Bean                  // bean has to be created to use them in the autowrired
     public Gender gender() {
         return new Gender();
     }
