@@ -1,8 +1,0 @@
-package packageAccess;
-
-public class a {
-
-	b bvar=new b();
-	b.method();
-	
-}

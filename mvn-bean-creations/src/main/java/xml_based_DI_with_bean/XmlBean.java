@@ -12,10 +12,10 @@ public class XmlBean
     {
         
     	  ApplicationContext context = new ClassPathXmlApplicationContext("beansConfig.xml");
-
           // Retrieve the Student bean from ApplicationContext
+    	  
+    	  
           Student student = (Student) context.getBean("student");
-
           // Access the dependencies and call their methods
           student.address.printName();
           student.family.printName();

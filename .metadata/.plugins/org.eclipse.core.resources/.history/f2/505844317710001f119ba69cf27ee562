@@ -1,9 +1,0 @@
-package mvn_bean_grp.mvn_bean_art;
-
-public class ComponentBean {
-
-	public ComponentBean() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

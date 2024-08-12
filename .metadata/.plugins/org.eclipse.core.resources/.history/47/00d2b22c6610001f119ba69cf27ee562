@@ -1,9 +1,0 @@
-package packageProtected;
-
-public class classProtetected {
-
-	
-	protected void method() {
-		System.out.println("method() ----classProtetected");
-	}
-}

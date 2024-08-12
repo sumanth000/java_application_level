@@ -5,6 +5,7 @@
 			<item value="/Users/b0269392/Desktop/sts/java_application_sts_workspace_learn"/>
 		</list>
 		<list key="projectNameTemplate">
+			<item value="lkjlk"/>
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
 			<item value="[artifactId]-[version]"/>
@@ -26,10 +27,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="mvn_log_grp.mvn_log_art"/>
 		</list>
 		<list key="groupId">
+			<item value="mvn_log_grp"/>
 		</list>
 		<list key="artifactId">
+			<item value="mvn_log_art"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -45,13 +49,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="new"/>
 		</list>
 		<list key="name">
-			<item value="mvnApplication"/>
 		</list>
 		<list key="artifactId">
-			<item value="maven"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -63,6 +64,24 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/b0269392/Desktop/java_applications_practice/spring_ioc"/>
+			<item value="/Users/b0269392/Desktop/sts/java_application_sts_workspace_learn/mvn-bean-creations"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
 		</list>
 	</section>
 </section>

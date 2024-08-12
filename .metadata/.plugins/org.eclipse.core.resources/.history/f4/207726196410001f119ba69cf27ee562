@@ -1,9 +1,0 @@
-package packageAccess;
-
- class b {
-
-	 public void method() {;
-	   System.out.println("method in b");
-	 }
-	 
-}

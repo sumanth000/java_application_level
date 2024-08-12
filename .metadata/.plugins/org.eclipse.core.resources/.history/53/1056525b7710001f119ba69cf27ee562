@@ -1,9 +1,0 @@
-package component_based_DI_injection;
-
-public class ComponentBean {
-
-	public ComponentBean() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

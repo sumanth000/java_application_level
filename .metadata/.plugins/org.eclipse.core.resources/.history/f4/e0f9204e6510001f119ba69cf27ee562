@@ -1,9 +1,0 @@
-package packagePublic;
-
-public final class classPublic {
-
-	public classPublic() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

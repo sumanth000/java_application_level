@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: mvn_log_grp.mvn_log_art.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in mvn_log_grp.mvn_log_art.AppTest

@@ -46,6 +46,7 @@
             <entry path="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/endorsed"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home" version="22.0.1"/>
     <libraryInfo home="/Users/b0269392/Library/Java/JavaVirtualMachines/graalvm-jdk-17.0.11/Contents/Home" version="17.0.11"/>
     <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre" version="1.8.0_371">
         <bootpath>
@@ -69,5 +70,7 @@
             <entry path="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/endorsed"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home" version="11.0.20"/>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home" version="17.0.9"/>
     <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home" version="20.0.1"/>
 </libraryInfos>
