@@ -1,7 +1,7 @@
 eclipse.preferences.version=1
 org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=/Applications/SpringToolSuite4.app/Contents/Eclipse/
-org.eclipse.jdt.core.classpathVariable.JRE_LIB=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/rt.jar
-org.eclipse.jdt.core.classpathVariable.JRE_SRC=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/src.zip
 org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
 org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.junit_4.13.2.v20211018-1956.jar
 org.eclipse.jdt.core.classpathVariable.M2_REPO=/Users/b0269392/.m2/repository

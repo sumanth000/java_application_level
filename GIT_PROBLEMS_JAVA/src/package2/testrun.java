@@ -6,9 +6,9 @@ public class testrun {
     public static void main(String[] args) {
         // Sample list
         List<Integer> a = new ArrayList<>();
-        a.add(1);
-        a.add(3);
+        a.add(12);
         a.add(5);
+        a.add(31);
         
         System.out.println(a);
         // Initialize variables to track the largest and second-largest numbers
@@ -24,11 +24,8 @@ public class testrun {
                 secondLargest = largest;
                 largest = current;
                 // Update index for the new largest
-                resultIndex = -1; // Reset index as we need the second largest
-            } else if (current > secondLargest && current < largest) {
-                // Update second largest and its index
-                secondLargest = current;
-                resultIndex = i;
+                resultIndex=i;
+            
             }
         }
         

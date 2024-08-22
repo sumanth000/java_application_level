@@ -5,10 +5,9 @@ public class gitJavaArrays {
 
 	public static void main(String[] args) {
 		//declaring arrays
-		//swapping numbers
-		
+		//swapping numbers		
 		//find the largest Number of arrays
-		// finding the second largest Number in the array
+		//finding the second largest Number in the array
 		//sum of the elements
 		//replace with sum of the right side elements
 		//sorting techniques

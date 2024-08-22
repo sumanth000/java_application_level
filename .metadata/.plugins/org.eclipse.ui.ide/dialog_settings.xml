@@ -50,12 +50,20 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/b0269392/Desktop/sts/java_application_sts_workspace_learn/GIT_PROBLEMS_JAVA"/>
 			<item value="/Users/b0269392/Desktop/sts/java_application_sts_workspace_learn/spring_boot_at_tomcat"/>
 			<item value="/Users/b0269392/Desktop/sts/java_application_sts_workspace_learn/mvn-bean-creations"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
 		</list>
+		<section name="ExternalProjectImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="547"/>
+			<item key="DIALOG_Y_ORIGIN" value="157"/>
+			<item key="DIALOG_WIDTH" value="586"/>
+			<item key="DIALOG_HEIGHT" value="699"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="407"/>

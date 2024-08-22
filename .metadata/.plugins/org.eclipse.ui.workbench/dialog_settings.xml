@@ -12,9 +12,25 @@
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.m2e"/>
 		</list>
+		<section name="ImportExportWizard.dialogBounds">
+		</section>
 	</section>
 	<section name="FileSystemImportWizard">
 	</section>
 	<section name="ZipFileImportWizard">
+	</section>
+	<section name="PropertyDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="303"/>
+		<item key="DIALOG_Y_ORIGIN" value="120"/>
+		<item key="DIALOG_WIDTH" value="1074"/>
+		<item key="DIALOG_HEIGHT" value="724"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="476"/>
+		<item key="DIALOG_Y_ORIGIN" value="98"/>
+		<item key="DIALOG_WIDTH" value="728"/>
+		<item key="DIALOG_HEIGHT" value="574"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
 </section>

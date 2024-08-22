@@ -18,8 +18,7 @@ public class gitJavaCollection {
 		
 		arrayList.add(1);
 		arrayList.add(2);
-		
-		
+				
 		
 		hashSet.add(1);
 		hashSet.add(1);
