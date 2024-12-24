@@ -5,6 +5,8 @@
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
 		</list>
+		<section name="NewWizard.dialogBounds">
+		</section>
 	</section>
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
@@ -21,7 +23,7 @@
 	</section>
 	<section name="PropertyDialog.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="303"/>
-		<item key="DIALOG_Y_ORIGIN" value="120"/>
+		<item key="DIALOG_Y_ORIGIN" value="87"/>
 		<item key="DIALOG_WIDTH" value="1074"/>
 		<item key="DIALOG_HEIGHT" value="724"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>

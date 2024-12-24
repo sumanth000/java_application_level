@@ -62,6 +62,45 @@ public class gitThreads {
 	        }
 
 	        // Shutdown the other executor
+	        
+	        // Example of CompletableFuture
+	        CompletableFuture<Void> completableFuture1 = CompletableFuture.runAsync(() -> {
+	            for (int i = 1; i <= 5; i++) {
+	                System.out.println("CompletableFuture1 Task - Count: " + i);
+	                try {
+	                    Thread.sleep(500); // Pause for 500 milliseconds
+	                } catch (InterruptedException e) {
+	                    System.out.println("CompletableFuture Task interrupted");
+	                }
+	            }
+	            System.out.println("CompletableFuture Task completed.");
+	        });
+
+	        // Wait for CompletableFuture to complete
+	        completableFuture1.join(); // This will block until the CompletableFuture is complete
+
+	        // Another CompletableFuture example that returns a result
+	        CompletableFuture<String> completableFutureResult = CompletableFuture.supplyAsync(() -> {
+	            StringBuilder result = new StringBuilder();
+	            for (int i = 1; i <= 5; i++) {
+	                result.append("CompletableFuture Result - Count: ").append(i).append("\n");
+	                try {
+	                    Thread.sleep(500); // Pause for 500 milliseconds
+	                } catch (InterruptedException e) {
+	                    result.append("CompletableFuture Result interrupted\n");
+	                }
+	            }
+	            return result.toString();
+	        });
+
+	        // Process the result when it's ready
+	        completableFutureResult.thenAccept(result -> {
+	            System.out.println("Result from CompletableFuture:\n" + result);
+	        });
+
+	        // Wait for the CompletableFuture to complete
+	        completableFutureResult.join(); // This will block until the CompletableFuture is complete
+
 	    
 	    }
 	 

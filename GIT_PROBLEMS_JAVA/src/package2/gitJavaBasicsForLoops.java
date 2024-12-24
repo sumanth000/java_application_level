@@ -57,7 +57,7 @@ public class gitJavaBasicsForLoops {
 			System.out.println();
 		}
 		
-		System.out.println("5  _________________________________________");
+		System.out.println("5 inverse right angled triangle _________________________________________");
 		
 		for(int i=0;i<5;i++)
 		{

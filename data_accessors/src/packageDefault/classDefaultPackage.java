@@ -1,8 +1,8 @@
 package packageDefault;
 
- class classDefaultPackage {
+ public class classDefaultPackage {
 	 
-	 void method() {
+	 public void anotherMethod() {
 		 classDefault defaultVar=new classDefault();
 		 defaultVar.method();// default method allowed calling within the same package
 	 }
@@ -10,3 +10,4 @@ package packageDefault;
 	
 
 }
+
