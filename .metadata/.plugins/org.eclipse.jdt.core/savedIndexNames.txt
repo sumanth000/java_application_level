@@ -41,7 +41,6 @@ INDEX VERSION 1.134+/Users/b0269392/Desktop/sts/java_application_sts_workspace_l
 2199707121.index
 1986990851.index
 496038140.index
-521419840.index
 1736193963.index
 3183379309.index
 68624190.index
