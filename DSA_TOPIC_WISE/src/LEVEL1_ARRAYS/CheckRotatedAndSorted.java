@@ -20,7 +20,7 @@ class Solution{
     // Function to find largest and second largest element in the array
      // num: size of array
     // Function to check if array is sorted and rotated
-    public static boolean checkRotatedAndSorted(int arr[], int num){
+    public static boolean checkRotatedAndSortedNaive(int arr[], int num){
         
         // Your code here
         
@@ -55,6 +55,7 @@ class Solution{
       
     }
     public static boolean nonIncreasingOrNonDecreasing(int arr[])
+
     {
         boolean result=true;
         boolean decreasing=true;
@@ -77,6 +78,35 @@ class Solution{
         }
         
         return result;
+    }
+    
+    
+    public static boolean checkRotatedAndSorted(int arr[],int num)
+    {
+    	boolean result=false;
+    	
+    	int increasing_break=0;
+    	int decreasing_break=0;
+    	
+    	for(int i=0;i<num;i++)
+    	{
+    		if(arr[i]>arr[(i+1)%num])// %num to check the first index whilst at the last index to check in the circular manner
+    		{
+    			increasing_break++; // there will be only one increasing point in decreasing way
+    		}
+    		
+    		if(arr[i]<arr[(i+1)%num])
+    		{
+    			decreasing_break++;
+    		}
+    	}
+    	
+    	if(increasing_break==1 ||decreasing_break ==1 )
+    		return true;
+    	
+    	
+    	
+    	return result;
     }
     
 }
